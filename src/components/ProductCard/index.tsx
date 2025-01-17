@@ -31,7 +31,7 @@ export const ProductCard: FC<Props> = ({
 
 
     useEffect(() => {
-        let handler = (e: MouseEvent) => {
+        const handler = (e: MouseEvent) => {
             if (!menuRef.current?.contains(e.target as Node)) {
                 setOpenOptions(false);
             }

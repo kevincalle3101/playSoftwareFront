@@ -1,5 +1,4 @@
 import { FC } from 'react'
-import { FaCheck } from "react-icons/fa6";
 import { RiEdit2Fill } from "react-icons/ri";
 import { MdDelete } from "react-icons/md";
 import { useProducts } from '@/hooks/useProduct';

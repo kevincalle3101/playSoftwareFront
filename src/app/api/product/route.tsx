@@ -1,4 +1,3 @@
-import { useProductState } from "@/hooks/useProductState";
 import { IProducts } from "@/types";
 import { NextResponse } from "next/server";
 

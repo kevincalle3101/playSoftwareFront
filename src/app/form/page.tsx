@@ -9,7 +9,7 @@ import { TopNav } from "@/components/TopNav"
 import { useProductState } from "@/hooks/useProductState"
 import { IProductFormField, IProductToCreate, IProductToUpdate } from "@/types";
 import { useProducts } from '../../hooks/useProduct'
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 
 const schemaProductForm = yup.object().shape({
@@ -24,7 +24,7 @@ interface IImage {
 
 const ProductForm = () => {
 
-  const { currentProduct, userId, setCurrentProduct } = useProductState();
+  const { currentProduct, userId } = useProductState();
   const isEditMode = currentProduct._id.length ? true : false
   const { updateProduct, createProduct } = useProducts()
 
