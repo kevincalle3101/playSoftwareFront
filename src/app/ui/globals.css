@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+.animationActive {
+  opacity: 1;
+  transition: 0.4s;
+}
+
+.animationUnactive {
+  opacity: 0;
+}
