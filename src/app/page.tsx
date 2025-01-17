@@ -33,10 +33,10 @@ const Home = () => {
           {products?.map((product, index) => (
             <ProductCard 
               key={index}
-              _id={product._id}
-              title={product.title}
-              description={product.description}
-              imageUrl={product.imageUrl}
+              _id={product?._id}
+              title={product?.title}
+              description={product?.description}
+              imageUrl={product?.imageUrl}
               userId={userId}
             />
           ))}
