@@ -1,22 +1,22 @@
 ﻿<a name="readme-top"></a>
 
-# Task-Manager-Front
+# Product-Manager-Front
 
-> App para manejar tareas.
+> App para manejar productos.
 
 ## Hecho con:
+- Next.js
 - Typescript
 - React
 - TailwindCSS
 - Zustand
 - React-Hook-Form
 - Yup
-- Wouter
 
 ## Live Demo
 
 
-[FRONTEND URL](https://task-manager-front-pi.vercel.app/)
+[FRONTEND URL](https://play-software-front.vercel.app/)
 
 ## Para empezar
 
@@ -32,7 +32,7 @@ Hacer una copia local y seguir las siguientes simples instrucciones.
 
 1. Clonar el repositorio
    ```sh
-   git clone https://github.com/kevincalle3101/task-manager-front
+   https://github.com/kevincalle3101/playSoftwareFront.git
    ```
 2. Instalar NPM packages
    ```sh
@@ -48,7 +48,7 @@ Hacer una copia local y seguir las siguientes simples instrucciones.
 
 1.Crear un archivo ".env" y pegar las siguientes variables
 ```sh
- VITE_URL=https://task-manager-back-production-101.up.railway.app/task
+ URL_BACKEND=https://playsoftwareback-production.up.railway.app
 ```
 
 ### Uso
